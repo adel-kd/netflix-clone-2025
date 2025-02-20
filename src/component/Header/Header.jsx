@@ -14,28 +14,53 @@ const Header = () => {
             <li>
               <img src={netflixLogo} alt="Netflix Logo" width="100" />
             </li>
-            <li>Home</li>
-            <li>TvShows</li>
-            <li>Movies</li>
-            <li>Latest</li>
-            <li>MyList</li>
-            <li>Browse by Languages</li>
+            <a href="#">
+              <li>Home</li>
+            </a>
+
+            <a href="#">
+              <li>TvShows</li>
+            </a>
+            <a href="#">
+              <li>Movies</li>
+            </a>
+            <a href="#">
+              <li>Latest</li>
+            </a>
+            <a href="#">
+              <li>MyList</li>
+            </a>
+            <a href="#">
+              <li>Browse by Languages</li>
+            </a>
           </ul>
         </div>
         <div className="header_right">
           <ul>
-            <li>
-              <SearchIcon />
-            </li>
-            <li>
-              <NotificationsNoneIcon />
-            </li>
-            <li>
-              <AccountBoxIcon />
-            </li>
-            <li>
-              <ArrowDropDownIcon />
-            </li>
+            <a href="#">
+              {" "}
+              <li>
+                <SearchIcon />
+              </li>
+            </a>
+            <a href="#">
+              {" "}
+              <li>
+                <NotificationsNoneIcon />
+              </li>
+            </a>
+            <a href="#">
+              {" "}
+              <li>
+                <AccountBoxIcon />
+              </li>
+            </a>
+            <a href="#">
+              {" "}
+              <li>
+                <ArrowDropDownIcon />
+              </li>
+            </a>
           </ul>
         </div>
       </div>

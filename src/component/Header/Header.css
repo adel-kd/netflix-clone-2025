@@ -16,6 +16,14 @@
 .nav_black {
   background-color: rgb(20, 20, 20);
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
+}
 .header_container {
   width: 90%;
   display: flex;
